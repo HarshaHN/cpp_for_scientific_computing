@@ -1,0 +1,80 @@
+---Task 1: Taylor Expansion with Horner's Scheme---   
+Config N = 5
+  For x = -1
+    sin func: error = 2.48923e-08  N+1-term = 0.841471
+    cos func: error = 2.73497e-07  N+1-term = 0.540302
+  For x = 1
+    sin func: error = 2.48923e-08  N+1-term = 0.841471
+    cos func: error = 2.73497e-07  N+1-term = 0.540302
+  For x = 2
+    sin func: error = 5.00159e-05  N+1-term = 0.909296
+    cos func: error = 0.000273821  N+1-term = 0.416155
+  For x = 3
+    sin func: error =  0.00419249  N+1-term = 0.140875
+    cos func: error =   0.0152157  N+1-term = 0.991049
+  For x = 5
+    sin func: error =     1.04855  N+1-term = 1.13362 
+    cos func: error =     2.24474  N+1-term = 0.162747
+  For x = 10
+    sin func: error =     1448.82  N+1-term = 1056.94 
+    cos func: error =     1459.78  N+1-term = 1296.8  
+
+Config N = 10
+  For x = -1
+    sin func: error =           0  N+1-term = 0.841471
+    cos func: error =           0  N+1-term = 0.540302
+  For x = 1
+    sin func: error =           0  N+1-term = 0.841471
+    cos func: error =           0  N+1-term = 0.540302
+  For x = 2
+    sin func: error = 4.08562e-14  N+1-term = 0.909297
+    cos func: error =  4.2738e-13  N+1-term = 0.416147
+  For x = 3
+    sin func: error = 2.01152e-10  N+1-term = 0.14112 
+    cos func: error = 1.40571e-09  N+1-term = 0.989992
+  For x = 5
+    sin func: error = 8.89053e-06  N+1-term = 0.958924
+    cos func: error = 3.71704e-05  N+1-term = 0.283664
+  For x = 10
+    sin func: error =     16.2678  N+1-term = 2.76109
+    cos func: error =     33.5995  N+1-term = 6.66456
+
+Config N = 50
+  For x = -1
+    sin func: error =           0  N+1-term = 0.841471
+    cos func: error =           0  N+1-term = 0.540302
+  For x = 1
+    sin func: error =           0  N+1-term = 0.841471
+    cos func: error =           0  N+1-term = 0.540302
+  For x = 2
+    sin func: error =           0  N+1-term = 0.909297
+    cos func: error = 5.55112e-17  N+1-term = 0.416147
+  For x = 3
+    sin func: error = 1.38778e-16  N+1-term = 0.14112
+    cos func: error = 2.22045e-16  N+1-term = 0.989992
+  For x = 5
+    sin func: error = 3.33067e-16  N+1-term = 0.958924
+    cos func: error = 8.32667e-16  N+1-term = 0.283662
+  For x = 10
+    sin func: error = 2.02283e-13  N+1-term = 0.544021
+    cos func: error = 2.16382e-13  N+1-term = 0.839072
+
+Config N = 100
+  For x = -1
+    sin func: error =           0  N+1-term = 0.841471
+    cos func: error =           0  N+1-term = 0.540302
+  For x = 1
+    sin func: error =           0  N+1-term = 0.841471
+    cos func: error =           0  N+1-term = 0.540302
+  For x = 2
+    sin func: error =           0  N+1-term = 0.909297
+    cos func: error = 5.55112e-17  N+1-term = 0.416147
+  For x = 3
+    sin func: error = 1.38778e-16  N+1-term = 0.14112
+    cos func: error = 2.22045e-16  N+1-term = 0.989992
+  For x = 5
+    sin func: error = 3.33067e-16  N+1-term = 0.958924
+    cos func: error = 8.32667e-16  N+1-term = 0.283662
+  For x = 10
+    sin func: error = 2.02283e-13  N+1-term = 0.544021
+    cos func: error = 2.16382e-13  N+1-term = 0.839072

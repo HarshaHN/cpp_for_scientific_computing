@@ -1,0 +1,4 @@
+---Task 2: Adaptive Simpson Integration (ASI)---
+Appx. of integral of func 1 + sin(exp(3*x)), with tol. 0.01: 2.505996157  
+Appx. of integral of func 1 + sin(exp(3*x)), with tol. 0.001: 2.499856554 
+Appx. of integral of func 1 + sin(exp(3*x)), with tol. 0.0001: 2.500809667

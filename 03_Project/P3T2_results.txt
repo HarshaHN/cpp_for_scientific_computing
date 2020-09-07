@@ -1,0 +1,33 @@
+------------The corners of the domain-----------
+The (x-value, y-value) of left upper corner:  (-10, 3)
+The (x-value, y-value) of right upper corner:  (5, 3)
+The (x-value, y-value) of right bottom corner:  (5, 0)
+The (x-value, y-value) of left bottom corner:  (-10, 0)
+
+------------Some x-values along upper straight line-----------
+s-value 0 is equivalent to the coordinates:  (-10, 3)
+s-value 0.25 is equivalent to the coordinates:  (-6.25, 3)
+s-value 0.50 is equivalent to the coordinates:  (-2.5, 3)
+s-value 0.75 is equivalent to the coordinates:  (1.25, 3)
+s-value 1.0 is equivalent to the coordinates:  (5, 3)
+
+------------Some x-values and y-values along bottom curve-----------      
+s-value 0 is equivalent to the coordinates:  (-10, 3.07209e-06)
+s-value 0.25 is equivalent to the coordinates:  (-6.23519, 0.165288)      
+s-value 0.50 is equivalent to the coordinates:  (-2.5, 0.499724)
+s-value 0.75 is equivalent to the coordinates:  (1.21958, 0.0125589)      
+s-value 1 is equivalent to the coordinates:  (5, 1.52951e-07)
+
+------------Some y-values along the left y curve-----------
+s-value 0 is equivalent to the coordinates:  (-10, 0)
+s-value 0.25 is equivalent to the coordinates:  (-10, 0.75)
+s-value 0.50 is equivalent to the coordinates:  (-10, 1.5)
+s-value 0.75 is equivalent to the coordinates:  (-10, 2.25)
+s-value 1.0 is equivalent to the coordinates:  (-10, 3)
+
+------------Some y-values along the right y curve-----------
+s-value 0 is equivalent to the coordinates:  (5, 0)
+s-value 0.25 is equivalent to the coordinates:  (5, 0.75)
+s-value 0.50 is equivalent to the coordinates:  (5, 1.5)
+s-value 0.75 is equivalent to the coordinates:  (5, 2.25)
+s-value 1.0 is equivalent to the coordinates:  (5, 3)

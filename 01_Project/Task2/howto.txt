@@ -1,0 +1,2 @@
+g++ -Wall main.cpp asi.cpp asi.hpp -o main
+./main

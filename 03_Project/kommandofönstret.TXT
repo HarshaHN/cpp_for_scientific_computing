@@ -1,0 +1,4 @@
+//P3T2
+g++ -Wall P3T2_main.cpp Curvebase.cpp BottomFunction.cpp StraightXLineBoundary.cpp StraightYLineBoundary.cpp -o output
+//P3T3
+g++ -Wall P3T3_main.cpp domain.cpp Curvebase.cpp BottomFunction.cpp StraightXLineBoundary.cpp StraightYLineBoundary.cpp -o output
