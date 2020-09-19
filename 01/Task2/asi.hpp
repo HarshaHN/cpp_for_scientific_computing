@@ -15,16 +15,16 @@
 typedef double (*FunctionPointer)(double);
 
 /**
-    Returns fully computed ASI
+    Returns fully ASI
     @param  f: pointer to function
             a, b: from a to b
             tol: acceptable tolerance
-    @return fully computed ASI value
+    @return fully ASI value
 */
 double ASI(FunctionPointer f, double a, double b, double tol);
 
 /**
-    Returns computed integral from a to b using ASI
+    Returns computed integral from a to b using Simpson rule
     @param  f: pointer to function
             aa, bb: from a to b
     @return ASI value

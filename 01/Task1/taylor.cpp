@@ -2,7 +2,7 @@
     taylor.cpp
     Purpose: To compute sine and cosine values using Taylor's series
     and horner's method.
-
+    Associated files: taylor.hpp
     @author Harsha HN harshahn@kth.se, Aron Andersson aronande@kth.se
     @version 1.0 22 sept 2019
 */

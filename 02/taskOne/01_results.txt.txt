@@ -1,0 +1,49 @@
+Number = -1
+ tolerance = 0.01
+  Terms= 5 myexp= 0.366667 err= 0.00121277
+ tolerance = 0.001
+  Terms= 7 myexp= 0.367857 err= 2.22983e-05
+ tolerance = 1e-08
+  Terms= 12 myexp= 0.367879 err= 1.49839e-10
+ tolerance = 1e-10
+  Terms= 14 myexp= 0.367879 err= 7.19647e-13
+
+Number = 1
+ tolerance = 0.01
+  Terms= 5 myexp= 2.71667 err= 0.00161516
+ tolerance = 0.001
+  Terms= 7 myexp= 2.71825 err= 2.78602e-05
+ tolerance = 1e-08
+  Terms= 12 myexp= 2.71828 err= 1.72876e-10
+ tolerance = 1e-10
+  Terms= 14 myexp= 2.71828 err= 8.15348e-13
+
+Number = 5
+ tolerance = 0.01
+  Terms= 16 myexp= 148.41 err= 0.00294883
+ tolerance = 0.001
+  Terms= 18 myexp= 148.413 err= 0.00020803
+ tolerance = 1e-08
+  Terms= 26 myexp= 148.413 err= 8.31676e-10
+ tolerance = 1e-10
+  Terms= 29 myexp= 148.413 err= 4.17799e-12
+
+Number = 10
+ tolerance = 0.01
+  Terms= 30 myexp= 22026.5 err= 0.00175855
+ tolerance = 0.001
+  Terms= 32 myexp= 22026.5 err= 0.000162384
+ tolerance = 1e-08
+  Terms= 41 myexp= 22026.5 err= 9.24047e-10
+ tolerance = 1e-10
+  Terms= 44 myexp= 22026.5 err= 1.45519e-11
+
+Number = 50
+ tolerance = 0.01
+  Terms= 138 myexp= 5.18471e+21 err= 3.14573e+06       
+ tolerance = 0.001
+  Terms= 140 myexp= 5.18471e+21 err= 3.14573e+06       
+ tolerance = 1e-08
+  Terms= 151 myexp= 5.18471e+21 err= 3.14573e+06       
+ tolerance = 1e-10
+  Terms= 155 myexp= 5.18471e+21 err= 3.14573e+06  

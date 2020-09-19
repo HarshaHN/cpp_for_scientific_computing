@@ -5,26 +5,26 @@
 
 class Matrix {
 private:
-	int m_m;
+	int dim;
 
-	//$$$$$$$$$$$$$$$$$$$$$$$$ We can make it a pointer do a double instead to effectivize. Almost every for-loop needs then to be changed. $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-	double** m_mat; 
+	// We can make it a pointer do a double instead to effectivize. Almost every for-loop needs then to be changed. $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+	double** mat; 
 
 public:
 	//constructor that creates an empty mxm matrix. 
-	Matrix(int m) : m_m(m) {
-		this->m_mat = generateMatrix(this->m_m);
+	Matrix(int m) : dim(m) {
+		this->mat = generateMatrix(this->dim);
 	}
 
-	double getSize(); //gets size, m_m,  of matrix
+	double getSize(); //gets size, dim,  of matrix
 
 	//copy constructor. It creates a copy of our other matrix
-	Matrix(const Matrix& Other): m_m(Other.m_m) {
+	Matrix(const Matrix& Other): dim(Other.dim) {
 
-		this->m_mat = generateMatrix(this->m_m);
-		for (int i = 0; i < m_m; ++i) {
-			for (int j = 0; j < m_m; ++j) {
-				this->m_mat[i][j] = Other.m_mat[i][j];
+		this->mat = generateMatrix(this->dim);
+		for (int i = 0; i < dim; ++i) {
+			for (int j = 0; j < dim; ++j) {
+				this->mat[i][j] = Other.mat[i][j];
 			}
 		}
 
@@ -32,7 +32,7 @@ public:
 
 
 
-	double** generateMatrix(int m_m);
+	double** generateMatrix(int dim);
 	void printMatrix() const;
 	void fillMatrix(std::vector<std::vector<int>> src);
 	Matrix& operator+=(const Matrix& Q); //Adding of matrices

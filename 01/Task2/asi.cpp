@@ -12,7 +12,7 @@ using namespace std;
 
 //Returns fully computed ASI
 double ASI(FunctionPointer f, double a, double b, double tol) {
-	double I1, I2;
+	double I1, I2; 
 	//I1 and I2 are compute, error > tol further partition in [a,b] is made
 	I1 = I(f, a, b);
 	double c = 0.5 * (a + b); //Mid point
@@ -22,9 +22,9 @@ double ASI(FunctionPointer f, double a, double b, double tol) {
 	else return ASI(f, a, c, tol / 2) + ASI(f, c, b, tol / 2);
 }
 
-//Returns computed integral from a to b using ASI
+//Returns computed integral from a to b using Simpson rule
 double I(FunctionPointer f, double aa, double bb) {
 	double c = (aa + bb) * 0.5;
-	//Implemented as per the definition of ASI
+	//Implemented as per the definition of Simpson
 	return ((bb - aa) / 6) * (f(aa) + 4 * f(c) + f(bb));
 }
